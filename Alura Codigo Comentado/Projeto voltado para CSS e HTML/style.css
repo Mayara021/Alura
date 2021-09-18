@@ -1,0 +1,28 @@
+/* Esse é um arquivo externo, que pode ser lincado com o código " <link rel="stylesheet" href="style.css"> "  e fazendo referência a esse arquivo, podemos usar o mesmo CSS em páginas diferentes. */
+
+/* A apresentação do CSS com um arquivo externo, funciona o estilo em cascata do CSS, primeiro código e assim sucessivamente.  Importa um arquivo externo de CSS dentro da nossa página HTML usando o LINK (  <link rel="stylesheet" href="style.css"> )  */
+
+body {  /* Tudo que for alterado aqui, será alterado na pagina*/
+    background: #CCCCCC  /* Vai alterar a cor */
+} /*Para mexer na apresentação dos textos, No a cor de findo(background) */
+p {
+    text-align: center;  /* Vai alterar a posilção do texto */
+    /* background: #CCCCCC - Aqui muda a cor da de toda a linha, muda a cor de fundo do elemento*/ 
+} /*Para mexer na apresentação dos textos, No alinhamento deles (text-align) */
+/*Para mexer o tamanho da fonte, (Font-size) */
+
+
+
+em strong { /*Vou dar uma nova definição para o meu STRONG, uma nova cor */
+    color: red; /* Vou alterar a cor do elemento eu uso color*/
+} /*Para mexer na apresentação dos textos, No a cor do texto (color) */
+/* Tudo que estiver em STRONG serpa mudado para vermelho, para deixa um CSS especifico para um unico Elemento? posso usar o Inline ou mudar o CSS para antender  uma estrutura.   */
+/* Agora se eu colocar o EM na frente do STRONG , ele vai saber que quero que mude apenas uma fras especifica, pq apenas aquela frase estara com o "em" e o "strong" em uma unica frase.*/
+
+
+
+
+/*  */
+
+
+/*  */

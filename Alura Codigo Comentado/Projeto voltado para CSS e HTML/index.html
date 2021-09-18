@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!--  A tag DOCTYPE serve para informar ao navegador qual versão do HTML estamos usando */ -->
+
+<html lang="pt-br"> <!-- fala a linguagem da minh pagina html */ -->
+    
+    <head><!--  --> <!-- Cabeça, informações que estamos passando PARA o NAVEGADOR   -->
+        <meta charset="UTF-8"> <!-- META - ela passa informações para o navegador, se coloca propriedade dentro dela. atributo CHARSET, que é o conjunto de caracteres ajusta os acentos  na pagina. UTF-8 é um tipo de dicionario.   -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbearia alura</title> <!-- Esse é o titulo da pagina, onde fica as abas -->
+        <link rel="stylesheet" href="style.css"> <!-- importando o CSS style.css-->
+        <!-- Esse link serve para lincar com a pagina que eu indicar, nesse caso o CSS. Lincar uma pagina externa de CSS --> 
+        
+            <!-- Criando a tAG <style> dessa forma e com CHAVE , ele modifica toda a pagina -->
+        <style> /* A tag <style> Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML */
+            /*p {
+                text-align: center
+            }*/
+        
+        </style>
+        <!-- E tem a possibilidade de adicionar o arquivo externo com o link mencioando acima -->
+
+    </head>
+    
+    <body> <!-- Informações que queremos EXIBIR na PAGINA  -->
+            <!-- CSS inline - Na linha onde temos a nossa tag, adicionamos a propriedade do CSS-->
+        <h1 style="text-align: center"> <!-- Style (de estilo CSS) "text-aling" serve pra definir onde o texto ficara que nesse caso é no centro -->Sobre a Barbearia Alura</h1> 
+        
+        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> <!-- A tag <strong> deixa em negrito--> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+        Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+    
+        <p style="font-size: 20px;"><!-- (font-size, define o tamanho da fonte) Folha estilo em CASTACA (inline) só será destacado no elemento que ele foi criado, reflete em todos os elementos, por isso escrever dentro da tag (nesse caso estamos usanso a <p>) --><em><!--A tag <em> deixa em italico -->Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+        
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+    </body>
+
+</html>
