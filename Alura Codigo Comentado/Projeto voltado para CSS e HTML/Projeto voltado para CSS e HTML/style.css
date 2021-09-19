@@ -1,0 +1,98 @@
+
+
+#barbearia1 { /*  */ 
+    width: 30%; /*  width é a propriedade que devemos manipular para alterar a largura do elemento. */
+}
+
+.principal{ /*  */
+    background: #CCCCCC;/*  */
+    padding: 30px; /* espaçamento intern */
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+
+.titulo-centralizado{
+    text-align: center
+}
+
+
+/* h1{ (vou subtituir esse h1 por uma .titulo-centralizado
+    text-align: center; /* Eu tirei esse código do H1 (<h1> Sobre a Barbearia Alura</h1> ) e coloquei aqui para te-lo como referencia.  */
+
+    /* text-align: center; (centralizr o texto)
+    height: 150px; ( ajustar a altura do elemento, através da propriedade height )
+    border: 10px solid #000000; (Borda do elemento)
+    padding: 20px; (ajustar o espaçamento interno do elemento, através da propriedade padding) 
+    margin: 40px; ( ajustar o espaçamento externo do elemento, através da propriedade margin) 
+
+} */ 
+
+p {
+    text-align: center;    
+} 
+
+#missao { /* quando usamos o identificador, usamos a # */
+    font-size: 20px
+} /* Eu tirei esse código onde tem o código do paragrafo, com i ID chamado missao para trazer como referencia aqui. */
+/* Toda vez que tiramos (marcamos) uma tag e queremos referenciar ela no CSS, nos usamos o nome da TAG , AGORA toda vez que temos um identificador  no HTML  e quer referencia-lo no CSS usamos a tralha " # " e o numero do identificador,      */
+
+em strong { 
+    color: red;
+} 
+
+.itens {
+    font-style: italic; /* Mudar o estilo da fonte */ 
+}
+/* Estou fazendo uma referencia aos meus itens de beneficio da pagina index.html. E como essa referencia está sendo usado uma class, preciso utilizar o ponto.  */
+
+.beneficios{
+    background-color: #FFFFFF; /*  estilizar a cor de fundo da div beneficios */ 
+    padding: 20px; /*  */ 
+}
+
+/* esse h2 foi apagado 
+h2 {
+    text-align: center; /centralizar o texto 
+}   */
+
+ul{
+    display: inline-block; /* Aqui estou alterando o display */  
+    /* O inline-block serve para deixar o texto e a imagem ......... */
+    vertical-align: top; /* Todos os elementos são alinhados pela linha de baixo e queremos que sejam alinhados pela linha de cima. Para isso, no nosso CSS, adicionaremos a propriedade “vertical-align: top”. */
+    width: 20%; /* A LARGURA da imagem */
+    margin-right: 15%; /* margem externa à direita  */
+}
+
+    .imagembeneficios{ /*  criei ess classe para ajustar minha imagem */
+        width: 50%; /* lterar a largura do elemento. */
+    }
+
+/* Comportamento de 1 tag ocupar a largura inteira da página é chamado “block”.*/ 
+/* Ele bloqueia o conteúdo daquela linha */
+/* Todos os itens da nossa linha têm o comportamento block. */
+/* Uma imagem não bloqueia o conteúdo, ela deixa que existam outros na lateral,  */
+/*  esse tipo de conteúdo é considerado inline. */
+
+
+
+
+/*  inline (ou seja, na mesma linha do conteúdo adjacente) */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
