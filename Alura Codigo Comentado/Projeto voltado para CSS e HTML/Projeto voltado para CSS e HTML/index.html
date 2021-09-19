@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+    
+    <head> <!--  tag padrão do html que serve p/ passar informação para o navegador. -->
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbearia alura</title> 
+        <link rel="stylesheet" href="style.css">  <!-- Colocamos a chamada para o CSS aqui no HEAD, pq é uma informação que estamos passando para o navegador.  -->
+
+    </head> 
+    <body>
+
+        <header> <!--  cabeçalho, dentro do conteúdo-->
+            <h1 class="titulo-principal">Barbearia Alura</h1> <!-- divisão do cabçalho-->
+
+        </header>
+        <img id="barbearia1" src="./assents/img/barbearia1.jpg"> <!-- Quando for colcoar uma imagem precisa utilizar o IMG (A tag IMG serve para chamar essa imagem) e como é um arquivo externo, precisamos dizer onde está esse aquivo externo, dizer qua é a fonte dessa imagem. e para isso usamos a propriedade SRC (SOURCE - fonte) , logo em seguinda coloca o valor de = e indicando o caminho da imagem . Pode ser procurado com um ./  -->
+        <!-- Como é uma tag de chamada externa, ela não abre e fecham ela é só a definição da TAG.-->
+
+        <!-- A imagem tbm é um arquivo externo, Porém, ela é uma imagem que queremos EXIBIR na nossa tela, por isso precisa ser colocar aqui no corpo do projeto, no BODY -->
+        <!-- Como fazer para adicionar uma imagem no nosso conteúdo?  A tag img tem a propriedade src, onde adicionamos o endereço. -->
+        <!-- -->
+
+        <!-- -->
+        <div class="principal"> <!--A div marca nosso conteúdo-->
+    <!-- -->
+            <h2 class="titulo-centralizado"> Sobre a Barbearia Alura</h2> 
+            <!-- Precisamos -->
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        
+            <p id="missao"> <!--style="font-size: 20px;"  Vou tirar esse style dessa pagina e jogar na outra, pq agora vou usar o ID e lá vou chamar o ID missao. -->   <!-- CSS inline , quando coloca o código do css dentro da tag --> 
+                <!-- Esse codigo que foi tirado dava referencia especificamente (uma marca;áo especifica para esse html , especifica para esse elemento para o css referencia ele) a esse paragrafo, e agora para dar referencia a ele na pagina do css precisamos usa esse ID--><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+        </div>
+        <div class="beneficios">
+            <h3 class="titulo-centralizado">Benefícios</h3>
+                <!-- Eu qero esses itens LISTADOS -->
+                <!--A tag para a lista é a ul e cada item da lista precisa ser marcado com um li.-->
+            <ul> <!-- A tag de conteudo UL Para lista não ordenada (Ordered list), uma lista sem ordem-->
+                <!--Tag LI, de list item, para cada um dos itens se coloca a tag li. Aqui marcamos os itens com essa tag li-->
+            <li class="itens">Atendimento aos clientes</li> <!--Para cada um dos itens da lista, utilizamos a tag </li> -->
+            <!--As classes no CSS servem para marcarmos itens -->
+            <!--para posteriormente colocarmos estilo em cada um deles-->
+            <!--Colocamos um identificador, em que adiciono a propriedade class-->
+            <li class="itens">Espaço diferenciado</li>
+            <!--Como quero mudar todos meus itens para itaico , vou mudar tudo de 1 vez-->
+            <!--Vamos criar uam referencia para a classe no style.css onde usaremos o identificador "." (ponto)-->
+            <li class="itens">Localização</li>
+            <!--As CLASSES no CSS servem para marcarmos itens, para posteriormente colocarmos estilo em cada um deles, só que são repetíveis. Ou seja, podemos marcar todos os nossos itens com a mesma classe.-->
+            <li class="itens">Profissionais Qualficados </li>
+            </ul> <!--listas não-ordenadas -->
+            <!--Tem as listas ñ ordenadas onde a ordem não tem importancia do que vem primeiro ou depois, e ordenado como uma receita de bolo, onde você primeiro liga o forno e depois coloca a massa no forno.-->
+
+            <!-- CLASS - serve para replicarmos a aplicação do nosso CSS, sem precisar copiar e colá-lo em vários elementos. Aplicamos a classe para isso. -->
+        
+            <!--O conceito das classes no CSS Elas servem para marcar itens, só que são repetíveis-->
+            <img src="./assents/img/barbearia2.jpg" class="imagembeneficios">
+        </div> <!--A tag div é a tag específica para dividir o conteúdo. Ela não tem outra função além dessa.-->
+    </body>
+</html>
