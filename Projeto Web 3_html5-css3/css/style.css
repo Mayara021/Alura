@@ -1,0 +1,131 @@
+/* Limpar formatações padrões */
+/* O " * " quer dizer tudo,   */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em; /* Tamanha fonte */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Quais fontes disponiveis */
+    background: #e6e6e6; /* Cor de fundo do corpo da pagina */
+}
+
+/* 
++++ Layout +++
+*/
+#area-cabecalho{
+    background-color: #f7b600; /* Cor de fundo do cabeçalho */
+    padding: 15px; /* Espaçamento interno, em relação a area do cabeçalho */
+    text-align: center; /* centralizando texto */
+}
+#area-logo, #area-menu{
+    padding: 10px; /* (#area-logo, Definindo um espaço entre area do LOGO e area MENU) (#area-menu, Definindo um espaço entre a area MENU e logo) */
+}
+#area-principal{ 
+    /* Area das postagens */
+   /* background: white;  Definindo a cor de fundo da area principal (postagens) */
+    width: 920px; /* Deixando essa area de postagens fixa */
+    margin: 0 auto; /* (0)Margem superior e inferior (auto)Margem laterais deixa o conteúdo centralizado pq as laterais foram definidas como automaticas */
+    padding: 15px;    /* Definindo espaçamento entre cabeçalho e menu */
+}
+/* background nas area para facilitar a visualização */
+
+/*#area-postagens, #area-lateral{
+    background: orange; 
+     Para teste e visualizar o fundo */
+
+#area-postagens{
+    width: 660px; /* definindo largura q as postagens vão aparecer */
+    float: left; /* Para qe a area de postagens fique a esquerda */
+}
+#area-lateral{
+    width: 240px; /* definindo largura do menu lateral */
+    float: right; /* Para qe a area de menu lateral fique a direita */
+}
+.postagem-individual{
+    padding: 20px;  /*  */
+    margin-bottom: 20px; /*  */
+    background: white; /*  */
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+#rodape{ 
+    clear: both; /* O rodape acabou ficando em baixo do menu lateral tbm, devido ao float, nesse caso, será utilizado o clear e both , para remover o fluxo dos elementos flutuantes (Postagem e barra lateral) */
+    text-align: center; /* Centralizar texto do rodape */
+    padding: 15px; /*Espaçamento interno do Rodape */
+    background: #CCC;  /* Cor de fundo do rodape */
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+/* 
++++ Formatação do menu, apenas para separar os conteúdos +++
+*/
+
+a{
+    text-decoration: none/* Para que todos os links percam seu efeito decorado/formatação, traço a baixo tp texto  */;
+}
+
+ a:link,  a:visited{ /* Formatação padrão para todos os links, regra geral  */
+    color: #f7b600; /* Para cor do texto ficar laranja */
+    ; /* Para que o link(texto) fique branco ,  */
+    
+}
+ a:hover{ /* Formatação padrão para todos os links, regra geral */
+    text-decoration: underline;
+}
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{ /* Estou usando #area-cabecalho para cada um desses links para que ele entenda que essa formatação deve ser feita apenas na area de cabeçalho */
+    color: #FFF; /* Para que o link(texto) fique branco ,  */
+     padding: 8px 12px; /* (8px) Espaçamento superior e inferior (12px)laterais */
+}
+#area-cabecalho a:hover{
+    color: #f7b600; /* Para cor do texto ficar laranja */
+    background: #FFF; /* Para o hover ficar branco qnd o mouse passar por cima */
+    text-decoration: none;
+}
+
+/* 
++++ Formatação geral +++
+*/
+h1{
+    color: #4e4e4e; /* Cor da fonte do logo */
+    font-size: 2.5em; /* Tamanho da fonte do logo */
+}
+h2{ /* Formantando titulo da postagem */
+    color: #f7b600; /*Cor do texto */
+}
+h3{ /* Formantando titulo da postagem */
+    color: #565656; /*Cor do texto */
+    background: #CCC;
+    padding: 5px;
+}
+.branco{
+    color: white;/* Deixando só um nome do logo p/ ficar em branco */
+}
+.data-postagem{
+    font-size: 0.8em;/*(0.8em)pq acima estamos utilizando 1em, tamanho fonte*/
+    border-bottom: 1px solid #f4f4f4 ;/* Borda pra deixar mais elegante */
+    padding-bottom: 10px;/* Espalamento inferior*/
+    margin-bottom: 10px;/* Margem inferior */
+    display: block; /* Para fazer ele ocupar todo seu espaço como comportamento de bloco. */
+}
+/*  */
+
+
+
+
+
+
+
+
+
